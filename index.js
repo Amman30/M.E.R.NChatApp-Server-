@@ -73,5 +73,5 @@ mongoose.connect(process.env.MONGO_URI, {
         // Post.insertMany(posts)
     })
 }).catch((error) => {
-    console.log("Error " + error.message)
+    console.log("Error occured " + error.message)
 })
