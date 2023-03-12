@@ -31,7 +31,6 @@ const Schema = mongoose.Schema({
     picturePath: {
         type: String,
         max: 50,
-
     },
     friends: {
         type: Array,
